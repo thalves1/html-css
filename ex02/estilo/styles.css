@@ -58,7 +58,7 @@ body {
     gap: 32px;
 }
 
-.conteudo-principal-escrito > h1 {
+.conteudo-principal-escrito > h1 
     font-size: 40px;
 
-
+    @media(max-widht: 100px)

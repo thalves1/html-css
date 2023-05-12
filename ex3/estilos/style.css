@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'love';
+    src: url('../fontes/tattoo-studio-tattoo-studio-svg-400.otf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.center {
+    max-width: 1100px;
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.container-menu {
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.menu > a {
+    text-decoration: none;
+    color: red;
+    display: inline-block;
+    margin: 0 40px;
+    padding: 8px 10px;
+    transition: 0.8s;
+}
+
+.menu > a:hover {
+    color: black;
+}
+
+.logo{
+    border-radius: 50px;
+    margin-top: 6px;
+}
+
+.produtos > h1 {
+    font-size: 3rem;
+    font-family: 'love';
+    margin-bottom: 20px;
+    color: black;
+}
+
+section.produtos {
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.produto-single {
+    text-align: left;
+}
+
+.produto-container {
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 2px;
+
+}
+
+.produto-single {
+    width: 100%;
+    margin: 0 20px;
+}
+
+.produto-single > img {
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.produto-single > h3 {
+    text-align: center;
+    padding: 12px;
+    font-size: 1.75rem;
+    font-family: 'Roboto Mono'
+}
+
+.produto-single > p {
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    text-align: center;
+}
+
+.imag {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.agendamento {
+    max-width: 1030px;
+    padding: 0 2%;
+    margin: 0 auto;
+    background-color: darkgray;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.agendamento > h1 {
+    padding: 10px;
+    text-align: center;
+    font-family: 'love';
+}
+
+.agendamento > p {
+    text-align: center;
+    padding: 25px;
+
+    
+}
+
+.agendamento > p > a {
+    background-color:#717671;
+    border-radius: 30px;
+    padding: 20px;  
+    text-decoration: none;
+}
+
+.imag2 {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.loc {
+    margin-top: 20px;
+}
+
+.centerr {
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.centerr > h1 {
+    text-align: center;
+}
+
+.centerr > h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
