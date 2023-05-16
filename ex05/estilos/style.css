@@ -136,7 +136,10 @@ section.main {
     background-color: #FFFFFF;
     max-width: 100%;
 }
-@media screen and (max-width:2000px ) {
+
+
+
+@media screen and (max-width:1600px ) {
 
     section.main {
         min-height: 750px;
@@ -167,6 +170,13 @@ section.main {
         left: 1110px;
         top: 390px;
         text-decoration: none;
+    }
+
+    .centertwot {  
+        max-width: 50%;     
+        padding: 0 1%;
+        display: block;
+        margin: 0 auto;
     }
 
     
