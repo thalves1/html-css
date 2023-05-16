@@ -51,7 +51,7 @@ header {
 
 section.main {
     min-height: 950px;
-    background-image: url('../imagens/primeira.svg');
+    background-image: url('../imagens/primeira.png');
     background-repeat: no-repeat;
     width: 100%;
 
@@ -125,11 +125,11 @@ section.main {
 
 
 
-@media (max-width:450px) {
+@media (max-width:420px) {
 
     section.main {
-        min-height: 400px;
-        background-image: url('../imagens/primeira-peq.png');
+        min-height: 492px;
+        background-image: url('../imagens/primeira-peq-2.png');
         background-position: center;
     }
 
