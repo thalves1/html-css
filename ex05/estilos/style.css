@@ -65,6 +65,7 @@ header {
 section.main {
     min-height: 950px;
     background-image: url('../imagens/primeira.png');
+    background-position: center;
     background-repeat: no-repeat;
     width: 100%;
 
@@ -123,6 +124,7 @@ section.main {
     min-height: 900px;
     background-image: url('../imagens/fim.png');
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
 }
 
@@ -134,9 +136,41 @@ section.main {
     background-color: #FFFFFF;
     max-width: 100%;
 }
+@media screen and (max-width:2000px ) {
 
+    section.main {
+        min-height: 750px;
+        background-image: url('../imagens/primeira-media.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+    
+    }
 
+    .centertwott {
+        min-height: 700px;
+        background-image: url('../imagens/fim-media.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    }
 
+    .rimgg {
+        position: relative;
+        left: 1180px;
+        top: 530px;
+        text-decoration: none;
+    }
+    
+    .rimggw {
+        position: relative;
+        left: 1110px;
+        top: 390px;
+        text-decoration: none;
+    }
+
+    
+}
 
 @media (max-width:420px) {
 
@@ -218,7 +252,5 @@ section.main {
 
     .zap {
         max-width: 20px;
-    }
-    
-
+    }    
 }
