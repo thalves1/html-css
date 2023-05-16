@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #F8E7DE;
+}
+
+header {
+    background-color: rgba( 0, 0, 0, 0.07);
+    height: 60px;
+}
+
+.center {
+    max-width: 1600px;
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+
+.container-menu {
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 2px;
+    max-width: 3000px;
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
+    justify-content:flex-end ;
+}
+
+.menu > a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 40px;
+    padding: 8px 10px;
+    transition: 0.8s;
+    color: #817160;
+}
+
+.menu > a:hover {
+    color:#c7c0b0;
+}
+
+
+section.main {
+    min-height: 950px;
+    background-image: url('../imagens/primeira.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+.imagen2 {
+    border-radius: 30px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.rimgg {
+    position: relative;
+    left: 1530px;
+    top: 695px;
+    text-decoration: none;
+}
+
+.rimggw {
+    position: relative;
+    left: 1460px;
+    top: 510px;
+    text-decoration: none;
+}
+
+
+.produto-single {
+    text-align: left;
+}
+
+.produto-container {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.produto-single > img {
+    max-width: 100%;
+    text-align: left;
+}
+
+.centertwo {
+    max-width: 1660px;
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.centertwot {
+    max-width: 2000px;
+    padding: 0 1%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.centertwott {
+    min-height: 900px;
+    background-image: url('../imagens/fim.png');
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.rodape {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    max-width: 100%;
+}
+
+
+
+
+@media (max-width:450px) {
+
+    section.main {
+        min-height: 400px;
+        background-image: url('../imagens/primeira-peq.png');
+        background-position: center;
+    }
+
+    .menu > a {
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 0px;
+        padding: 8px 10px;
+        transition: 0.8s;
+        color: #D1B697;
+    }
+
+    .centertwott {
+        min-height: 300px;
+        background-image: url('../imagens/fim-peq.png');
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .rodape {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        background-color: #FFFFFF;
+    }
+
+    .rimgg {
+        
+        position: relative;
+        left: 325px;
+        top: 230px;
+        text-decoration: none;
+    }
+    
+    .rimggw {
+        position: relative;
+        left: 300px;
+        top: 170px;
+        text-decoration: none;
+    }
+
+    .centertwo {
+    
+        padding: 0 2%;
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .centertwot {  
+        max-width: 100%;     
+        padding: 0 1%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .rodape {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #FFFFFF;
+        max-width: 100%;
+    }
+
+    .zap {
+        max-width: 20px;
+    }
+    
+
+}
