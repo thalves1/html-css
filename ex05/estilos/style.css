@@ -131,6 +131,11 @@ section.main {
         min-height: 492px;
         background-image: url('../imagens/primeira-peq-2.png');
         background-position: center;
+    }
+
+    .imagen2 {
+        border-radius: 10px;
+        margin-top: 5px;
         width: 100%;
     }
 
@@ -146,9 +151,7 @@ section.main {
     .centertwott {
         min-height: 260px;
         background-image: url('../imagens/fim-peq.png');
-        background-position: center;
         background-repeat: no-repeat;
-        width: 100%;
     }
 
     .rodape {
@@ -162,7 +165,7 @@ section.main {
     .rimgg {
         
         position: relative;
-        left: 307px;
+        left: 295px;
         top: 200px;
         text-decoration: none;
     }
@@ -170,8 +173,8 @@ section.main {
     .rimggw {
        
         position: relative;
-        left: 280px;
-        top: 150px;
+        left: 270px;
+        top: 145px;
         text-decoration: none;
     }
 
