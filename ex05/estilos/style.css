@@ -138,50 +138,6 @@ section.main {
 }
 
 
-
-@media screen and (max-width:1600px ) {
-
-    section.main {
-        min-height: 750px;
-        background-image: url('../imagens/primeira-media.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-    
-    }
-
-    .centertwott {
-        min-height: 700px;
-        background-image: url('../imagens/fim-media.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 100%;
-    }
-
-    .rimgg {
-        position: relative;
-        left: 1180px;
-        top: 530px;
-        text-decoration: none;
-    }
-    
-    .rimggw {
-        position: relative;
-        left: 1110px;
-        top: 390px;
-        text-decoration: none;
-    }
-
-    .centertwot {  
-        max-width: 50%;     
-        padding: 0 1%;
-        display: block;
-        margin: 0 auto;
-    }
-
-    
-}
-
 @media (max-width:420px) {
 
     section.main {
