@@ -152,6 +152,7 @@ section.main {
         min-height: 260px;
         background-image: url('../imagens/fim-peq.png');
         background-repeat: no-repeat;
+        background-position: center;
     }
 
     .rodape {
