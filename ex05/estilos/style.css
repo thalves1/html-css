@@ -148,8 +148,8 @@ section.navegacao {
 @media screen and (max-width:1000px) {
 
     section.navegacao {
-        min-height: 1100px;
-        background-image: url('../imagens/primeira-media.png');
+        min-height: 1200px;
+        background-image: url('../imagens/primeira-meedia.png');
         background-position: center;
     }
 
