@@ -35,25 +35,36 @@ header {
 }
 
 
-
-.container-menu {
-    justify-content: space-around;
-    width: 100%;
-    align-items: center;
-    margin-bottom: 2px;
-    max-width: 3000px;
+.centertwo {
+    max-width: 2000px;
     padding: 0 2%;
     display: flex;
     margin: 0 auto;
-    justify-content:flex-end ;
+}
+
+.agendamento {
+    min-height: 900px;
+    background-image: url('../imagens/fim.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+
+
+.container-menu {
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
 }
 
 .menu > a {
     text-decoration: none;
-    display: inline-block;
-    margin: 0 40px;
-    padding: 8px 10px;
-    transition: 0.8s;
+    margin: 0 70px;
+    transition: 1.5s;
     color: #817160;
 }
 
@@ -62,70 +73,33 @@ header {
 }
 
 
-section.main {
-    min-height: 950px;
+section.navegacao {
+    min-height: 900px;
     background-image: url('../imagens/primeira.png');
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-
 }
 
-.imagen2 {
+.borda-imagem {
     border-radius: 30px;
     margin-top: 5px;
+    margin-bottom: 5px;
     width: 100%;
 }
 
-.rimgg {
+.whatsicon {
     position: relative;
     left: 1530px;
     top: 695px;
     text-decoration: none;
 }
 
-.rimggw {
+.instaicon {
     position: relative;
     left: 1460px;
     top: 510px;
     text-decoration: none;
-}
-
-
-.produto-single {
-    text-align: left;
-}
-
-.produto-container {
-    width: 100%;
-    justify-content: space-between;
-}
-
-.produto-single > img {
-    max-width: 100%;
-    text-align: left;
-}
-
-.centertwo {
-    max-width: 1660px;
-    padding: 0 2%;
-    display: flex;
-    margin: 0 auto;
-}
-
-.centertwot {
-    max-width: 2000px;
-    padding: 0 1%;
-    display: flex;
-    margin: 0 auto;
-}
-
-.centertwott {
-    min-height: 900px;
-    background-image: url('../imagens/fim.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
 }
 
 .rodape {
@@ -137,30 +111,119 @@ section.main {
     max-width: 100%;
 }
 
+@media screen and (max-width: 1550px) {
+
+    section.navegacao {
+        min-height: 700px;
+        background-image: url('../imagens/primeira-note.png');
+        background-position: center;
+    }
+
+    .agendamento {
+        min-height: 700px;
+        background-image: url('../imagens/fim-note.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .whatsicon {
+        
+        position: relative;
+        left: 1180px;
+        top: 380px;
+        text-decoration: none;
+    }
+    
+    .instaicon {
+       
+        position: relative;
+        left: 1110px;
+        top: 510px;
+        text-decoration: none;
+    }
+     
+}
+
+
+@media screen and (max-width:900px) {
+
+    section.navegacao {
+        min-height: 1100px;
+        background-image: url('../imagens/primeira-media.png');
+        background-position: center;
+    }
+
+    .agendamento {
+        min-height: 410px;
+        background-image: url('../imagens/fim-media.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .whatsicon {
+        
+        position: relative;
+        left: 655px;
+        top: 305px;
+        text-decoration: none;
+    }
+    
+    .instaicon {
+       
+        position: relative;
+        left: 610px;
+        top: 225px;
+        text-decoration: none;
+    }
+
+    .zap {
+        max-width: 40px;
+    }   
+
+    .container-menu {
+        width: 100%;
+        align-items: center;
+        padding: 0 2%;
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    .menu > a {
+        text-decoration: none;
+        margin: 0 40px;
+        transition: 1.5s;
+        color: #817160;
+    }
+
+
+
+    
+}
+
 @media (max-width:420px) {
 
-    section.main {
+    section.navegacao {
         min-height: 492px;
         background-image: url('../imagens/primeira-peq-2.png');
         background-position: center;
     }
 
-    .imagen2 {
+    .borda-imagem {
         border-radius: 10px;
         margin-top: 5px;
         width: 100%;
     }
 
+
     .menu > a {
         text-decoration: none;
-        display: inline-block;
-        margin: 0 0px;
-        padding: 8px 10px;
+        margin: 0 auto;
+        padding: 10px;
         transition: 0.8s;
         color: #D1B697;
     }
 
-    .centertwott {
+    .agendamento {
         min-height: 260px;
         background-image: url('../imagens/fim-peq.png');
         background-repeat: no-repeat;
@@ -175,7 +238,7 @@ section.main {
         background-color: #FFFFFF;
     }
 
-    .rimgg {
+    .whatsicon {
         
         position: relative;
         left: 295px;
@@ -183,7 +246,7 @@ section.main {
         text-decoration: none;
     }
     
-    .rimggw {
+    .instaicon {
        
         position: relative;
         left: 270px;
@@ -191,19 +254,12 @@ section.main {
         text-decoration: none;
     }
 
-    .centertwo {
+    .center {
     
         padding: 0 2%;
         display: block;
         margin: 0 auto;
         max-width: 100%;
-    }
-
-    .centertwot {  
-        max-width: 100%;     
-        padding: 0 1%;
-        display: block;
-        margin: 0 auto;
     }
 
     .rodape {
