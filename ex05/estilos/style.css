@@ -145,7 +145,7 @@ section.navegacao {
 }
 
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1000px) {
 
     section.navegacao {
         min-height: 1100px;
