@@ -145,8 +145,22 @@ body {
         justify-content: flex-end;
         color: white;
         margin: 30px;
+
+
           
     }
+
+    .menu {
+        position: fixed;
+        min-height: 60px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        background-color:rgba(0, 0, 0, 0.4);
+        z-index: 9998;
+
+    }
+    
 
     .center {
         background-color: aliceblue;
