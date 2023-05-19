@@ -8,6 +8,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
 
 @font-face {
     font-family:'love';
@@ -28,7 +33,7 @@ html {
 }
 
 body {
-    background-color:#ffffff;
+    background-color:aliceblue;
 }
 
 * {
@@ -123,8 +128,8 @@ body {
     }
 
     .sobre p {
-        font-size: 1.2rem;
-        font-family: 'Montserrat';
+        font-size: 1.1rem;
+        font-family: 'Raleway';
         text-indent: 20px;
     }
 
@@ -199,7 +204,7 @@ body {
     }
 
     .reservas h1 {
-        font-family: 'Merriweather Sans';
+        font-family: cursive;
         margin: auto;
         color: white;
         font-size: 18px;
