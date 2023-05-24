@@ -1,0 +1,32 @@
+.swiper-slide img {
+    width:100%;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    display: none;
+
+}
+
+.fotos {
+    margin-bottom: 10px;
+}
+
+
+.tituloh2 {
+    text-align: center;
+    font-family: 'font2';
+    font-size: 4em;
+}
+
+.fotosparagrafo {
+    font-family: 'font3';
+    font-size: 1.5em;
+    text-indent: 5%;
+}
+
+.localizacao {
+    display: flex;
+    align-items: center;
+    padding: 0 3%;
+
+}

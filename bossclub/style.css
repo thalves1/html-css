@@ -212,15 +212,15 @@ body {
     .reservas {
         background-image: url('imagens/teste3.jpg');
         min-height: 260px;
+        position: relative;
     }
 
-    .reservas h1 {
-        font-family: cursive;
-        margin: auto;
-        color: white;
+    .reserva-texto {
         font-size: 18px;
-        position: relative;
-        transform: translate(-30%, 210%);
+        position: absolute;
+        bottom: 70px;
+        left: 60px;
+
         
     }
 
